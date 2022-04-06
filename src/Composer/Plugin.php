@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Ayesh\ComposerPreload\Composer;
+namespace Keilestone\ComposerPreload\Composer;
 
 
-use Ayesh\ComposerPreload\Composer\Command\PreloadCommandProvider;
+use Keilestone\ComposerPreload\Composer\Command\PreloadCommandProvider;
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\Capability\CommandProvider;

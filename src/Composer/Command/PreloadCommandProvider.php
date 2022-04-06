@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ayesh\ComposerPreload\Composer\Command;
+namespace Keilestone\ComposerPreload\Composer\Command;
 
 use Composer\Command\BaseCommand;
 use Composer\Plugin\Capability\CommandProvider;

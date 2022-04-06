@@ -12,7 +12,7 @@
     "require": {
         "php": "^8.0",
         "composer-plugin-api": "^2.0",
-        "ayesh/php-timer": "^2.1.1",
+        "Keilestone/php-timer": "^2.1.1",
         "symfony/finder": "^3.4.18 || ^4.0.14 || ^4.1.7 || ^4.2.0 || ^5.0.7"
     },
     "require-dev": {
@@ -30,7 +30,7 @@
         }
     },
     "extra": {
-        "class": "Ayesh\\ComposerPreload\\Composer\\Plugin"
+        "class": "Keilestone\\ComposerPreload\\Composer\\Plugin"
     },
     "scripts": {
         "test": ["phpunit "]

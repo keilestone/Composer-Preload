@@ -1,6 +1,6 @@
 <?php
 
-namespace Ayesh\ComposerPreload;
+namespace Keilestone\ComposerPreload;
 
 use BadMethodCallException;
 use IteratorAggregate;

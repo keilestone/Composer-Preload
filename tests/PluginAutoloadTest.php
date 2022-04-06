@@ -1,10 +1,10 @@
 <?php
 
-namespace Ayesh\ComposerPreload\Tests;
+namespace Keilestone\ComposerPreload\Tests;
 
-use Ayesh\ComposerPreload\Composer\Command\PreloadCommand;
-use Ayesh\ComposerPreload\Composer\Command\PreloadCommandProvider;
-use Ayesh\ComposerPreload\Composer\Plugin;
+use Keilestone\ComposerPreload\Composer\Command\PreloadCommand;
+use Keilestone\ComposerPreload\Composer\Command\PreloadCommandProvider;
+use Keilestone\ComposerPreload\Composer\Plugin;
 use PHPUnit\Framework\TestCase;
 
 class PluginAutoloadTest extends TestCase {

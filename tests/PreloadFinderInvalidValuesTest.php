@@ -1,8 +1,8 @@
 <?php
 
-namespace Ayesh\ComposerPreload\Tests;
+namespace Keilestone\ComposerPreload\Tests;
 
-use Ayesh\ComposerPreload\PreloadFinder;
+use Keilestone\ComposerPreload\PreloadFinder;
 use BadMethodCallException;
 use PHPUnit\Framework\TestCase;
 

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Ayesh\ComposerPreload\Composer\Command;
+namespace Keilestone\ComposerPreload\Composer\Command;
 
-use Ayesh\ComposerPreload\PreloadGenerator;
-use Ayesh\ComposerPreload\PreloadList;
-use Ayesh\ComposerPreload\PreloadWriter;
+use Keilestone\ComposerPreload\PreloadGenerator;
+use Keilestone\ComposerPreload\PreloadList;
+use Keilestone\ComposerPreload\PreloadWriter;
 use Ayesh\PHP_Timer\Formatter;
 use Ayesh\PHP_Timer\Stopwatch;
 use Composer\Command\BaseCommand;
@@ -53,7 +53,7 @@ Example configuration for `composer.json`:
         "preload": {
             "paths": [
                 "vendor/example/example-1/src",
-                "vendor/ayesh/php-timer/src",
+                "vendor/Keilestone/php-timer/src",
                 "drupal-core"
             ],
             "exclude": [
@@ -79,7 +79,7 @@ Example configuration for `composer.json`:
  - no-status-check: A boolean indicating whether the generated preload file should skip extra checks or not
  - exclude-regex: A regular expression to run on the full file path, and if matched, to be excluded from preload list.
  
-For more: https://github.com/Ayesh/Composer-Preload
+For more: https://github.com/Keilestone/Composer-Preload
 HELP
             );
     }
