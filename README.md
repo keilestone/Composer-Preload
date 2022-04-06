@@ -21,11 +21,11 @@ the shelves, configure PHP to automatically load this file.
 
 Just the way you'd install a normal composer package, you can install this plugin aswell:
 ```
-composer require Keilestone/composer-preload
+composer require keilestone/composer-preload
 ```
 If you would rather install this globally:
 ```
-composer g require Keilestone/composer-preload
+composer g require keilestone/composer-preload
 ```
 
 # Configuration
